@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1010px){
+    .section{
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .section{
+        height: 700px;
+    }
+    .nav-list{
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width: 913px)
+{
+    .nav-list{
+        width: 100%;
+    }
+    .nav-list li{
+        padding: 5px 23px;
+    }
+    #search{
+        font-size: 12px;
+    }
+    .btn-sm {
+        padding: 4px 8px;
+        margin: 5px;
+    }
+    .section{
+        height: 900px;
+        max-width: 77%;
+    }
+    .form-input {
+        width: 96%;
+        font-size: 18px;
+        padding: 2px 5px;
+        margin: 0px 8px;
+    }
+}
+
+@media only screen and (max-width: 801px)
+{
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li{
+        padding: 10px 20px;
+    }
+    .navbar{
+        height: 400px;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav{
+        width: 43%;
+        text-align: center;
+    }
+    .firstSection{
+        height: 717px;
+    }
+    .section{
+        height: 1053px;
+        max-width: 73%;
+    }
+    .long-para{
+        font-size: 18px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 80px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 776px)
+{
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 648px)
+{
+    .section{
+        max-width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 629px)
+{
+    .section{
+        flex-direction: column-reverse;
+        max-width: 62%;
+    }
+    .box-main{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 562px)
+{
+    .section{
+        max-width: 69%;
+    }
+}
+
+@media only screen and (max-width: 507px)
+{
+    .section{
+        max-width: 79%;
+    }
+}
+
+@media only screen and (max-width: 435px)
+{
+    .section{
+        max-width: 88%;
+    }
+    .form{
+        margin: 10px;
+    }
+    .form-input{
+        margin: 0px;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 391px)
+{
+    .section{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px)
+{
+    .section{
+        height: 1286px;
+    }
+    .imageMy {
+        height: 240px;
+        width: 240px;
+    }
+}
